@@ -1,5 +1,4 @@
 import { Component, EventEmitter, OnDestroy, OnInit } from '@angular/core';
-import { SimpleModalService } from 'ngx-simple-modal';
 import { Subscription } from 'rxjs';
 import { User } from 'src/app/core/models/dto/user';
 import { UserAddress } from 'src/app/core/models/dto/user-address';
