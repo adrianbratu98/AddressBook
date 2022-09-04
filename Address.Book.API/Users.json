@@ -1,0 +1,32 @@
+[
+  {
+    "firstName": "Adrian",
+    "lastName": "Bratu",
+    "email": "adrianbratu98@gmail.com",
+    "address": {
+      "country": "Romania",
+      "city": "Bucharest",
+      "street": "Random street 244j"
+    }
+  },
+  {
+    "firstName": "Roxana",
+    "lastName": "Tudor",
+    "email": "roxanatudor@gmail.com",
+    "address": {
+      "country": "Romania",
+      "city": "Bucharest",
+      "street": "Street random 111a"
+    }
+  },
+  {
+    "firstName": "Andrei",
+    "lastName": "Alex",
+    "email": "andreialex@gmail.com",
+    "address": {
+      "country": "France",
+      "city": "Nice",
+      "street": "La test 242a"
+    }
+  }
+]

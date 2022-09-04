@@ -1,0 +1,11 @@
+.address-list {
+    margin: 10px 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    max-width: 1000px;
+}

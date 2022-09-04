@@ -1,0 +1,25 @@
+.dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    animation: dialog-show 0.5s 1 forwards;
+}
+  
+.dialog-content {
+  width: 600px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+  
+@keyframes dialog-show {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
