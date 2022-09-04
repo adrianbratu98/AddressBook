@@ -13,7 +13,7 @@ namespace Address.Book.Application.Dto
             FirstName = firstName;
             LastName = lastName;
             Email = email;
-            UserAddress = userAddress;
+            Address = userAddress;
         }
 
         public int Id { get; set; }
@@ -24,6 +24,6 @@ namespace Address.Book.Application.Dto
 
         public string Email { get; set; }
 
-        public virtual UserAddressDto UserAddress { get; set; }
+        public virtual UserAddressDto Address { get; set; }
     }
 }
